@@ -1,17 +1,29 @@
 div {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
+	color: #848484;
 }
 
 a {
 	text-decoration: none;
+	color: #848484;
+}
+
+a:hover {
+	color: #BDBDBD;
+}
+
+#empty {
+	height: 200px;
 }
 
 #title {
 	font-size: 36px;
+	padding: 30px;
 }
 
 #content {
 	font-size: 28px;
+	padding: 20px;
 }
 
 .center {
