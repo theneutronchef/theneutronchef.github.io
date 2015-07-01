@@ -1,28 +1,28 @@
 div {
-	font-family: 'Droid Sans', sans-serif;
-	color: #848484;
+	font-family: 'Josefin Slab', serif;
+	color: #424242;
 }
 
 a {
 	text-decoration: none;
-	color: #848484;
+	color: #424242;
 }
 
 a:hover {
 	color: #BDBDBD;
 }
 
-#empty {
+.empty {
 	height: 200px;
 }
 
 #title {
-	font-size: 36px;
+	font-size: 49px;
 	padding: 30px;
 }
 
 #content {
-	font-size: 28px;
+	font-size: 30px;
 	padding: 20px;
 }
 
