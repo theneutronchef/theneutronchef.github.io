@@ -1,0 +1,35 @@
+div {
+	font-family: 'Josefin Slab', serif;
+	color: #424242;
+}
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:hover {
+	color: #BDBDBD;
+}
+
+#content {
+	top: 200px;
+	/*background-color: #111111;*/
+  box-shadow: 10px 10px 5px lightgrey;
+
+}
+
+#title {
+	font-size: 54px;
+	padding: 20px;
+}
+
+#text {
+	font-size: 36px;
+	padding: 30px;
+}
+
+.center {
+	margin:0 auto;
+	text-align: center;
+}
