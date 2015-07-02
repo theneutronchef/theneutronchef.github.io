@@ -12,8 +12,11 @@ a:hover {
 	color: #BDBDBD;
 }
 
-.empty {
-	height: 200px;
+#content {
+	top: 200px;
+	/*background-color: #111111;*/
+  box-shadow: 10px 10px 5px lightgrey;
+
 }
 
 #title {
@@ -21,7 +24,7 @@ a:hover {
 	padding: 20px;
 }
 
-#content {
+#text {
 	font-size: 36px;
 	padding: 30px;
 }
