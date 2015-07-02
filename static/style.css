@@ -12,11 +12,18 @@ a:hover {
 	color: #BDBDBD;
 }
 
-#content {
-	top: 200px;
-	/*background-color: #111111;*/
-  box-shadow: 10px 10px 5px lightgrey;
+#header {
+	height:200px;
+	box-shadow:inset 0 -15px 5px -16px #111;
+}
 
+#content {
+	/*top: 200px;*/
+}
+
+#footer {
+	height:200px;
+	box-shadow:inset 0 15px 5px -16px #111;
 }
 
 #title {
