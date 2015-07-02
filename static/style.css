@@ -14,7 +14,7 @@ a:hover {
 
 #content {
 	position: relative;
-	top:33%;
+	top:30%;
   left:-5%;
   width:110%;
 	box-shadow: 0 4px 16px #BBB, 0 -4px 16px #BBB;
@@ -22,7 +22,7 @@ a:hover {
 
 #title {
 	font-size: 54px;
-	padding: 30px;
+	padding: 50px;
 }
 
 #text {
@@ -30,7 +30,7 @@ a:hover {
 }
 
 #social {
-	padding: 30px;
+	padding: 50px;
 }
 
 .center {
