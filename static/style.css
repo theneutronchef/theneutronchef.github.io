@@ -1,3 +1,7 @@
+body {
+	background-color: #DDD;
+}
+
 div {
 	font-family: 'Josefin Slab', serif;
 	color: #424242;
@@ -14,15 +18,16 @@ a:hover {
 
 #content {
 	position: relative;
-	top:30%;
+	top:27%;
   left:-5%;
   width:110%;
 	box-shadow: 0 4px 16px #BBB, 0 -4px 16px #BBB;
+	background-color: #FFF
 }
 
 #title {
 	font-size: 54px;
-	padding: 50px;
+	padding: 40px;
 }
 
 #text {
@@ -30,7 +35,7 @@ a:hover {
 }
 
 #social {
-	padding: 50px;
+	padding: 40px;
 }
 
 .center {
