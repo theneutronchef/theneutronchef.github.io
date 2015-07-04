@@ -6,20 +6,56 @@
 </head>
 
 <body>
-	<div id="content">
-		<div id="title" class="center"> The Neutron Chef </div>
-		<div id="text" class="center"> 
-			<a href="https://www.pinterest.com/theneutronchef/menu/">Chef</a> 
+	<!-- <div class="circle" style="background-image: url(static/images/souffle.jpg)"> -->
+	<!-- </div> -->
+	<div id="header" class="center transition">
+		<p>Hi! My name is Gabriel.</p>
+	</div>
+	<div id="container">
+		<div id="title" class="center" onmouseover="showDiv('about')">
+			 The Neutron Chef 
+		</div>
+		<span>
+		<div id="nav" class="center"> 
+			<span id="left-link" class="mouseover">Chef</span>
 			 and 
-			<a href="#">Coder</a> 
+			<span id="right-link" class="mouseover">Coder</span> 
+		</div>
+		</span>
+		<div id="left-img" class="center transition">
+			<img src="static/icons/cooking.png" height="100" width="100"></br>
+			<p>Check out my culinary creations on my Pinterest board!</p>
+			<div id="left-footer" class="transition">
+				<p>UC Berkeley Iron Chef</p>
+				<p></p>
+			</div>
+		</div>
+		<div id="right-img" class="center transition">
+			<img src="static/icons/imac.png" height="100" width="100"></br>
+			<p>Check out my coding creations on my Github!</p>
+			<div id="right-footer" class="transition">
+				<p><a href="http://groupool.herokuapp.com/">Groupool</a></p>
+				<p>Super Smash Bros Shootout</p>
+				<p>JustAdd</p>
+			</div>
 		</div>
 		<div id="social" class="center"> 
-			<a href="mailto:tanjunxian@gmail.com"><img src="static/icons/email.svg" height="40" width="40"> </a>
 			<a href="https://www.facebook.com/gabriel.tangent"><img src="static/icons/facebook.svg" height="40" width="40"></a>
 			<a href="https://www.linkedin.com/profile/view?id=403289041"><img src="static/icons/linkedin.svg" height="40" width="40"></a>
+			<a href="https://www.pinterest.com/theneutronchef/menu/"><img src="static/icons/pinterest.svg" height="40" width="40"></a>
 			<a href="https://github.com/theneutronchef"><img src="static/icons/github.svg" height="40" width="40"></a>
+			<a href="mailto:tanjunxian@gmail.com"><img src="static/icons/email.svg" height="40" width="40"> </a>
+		</div>
+		<div id="arrows" class="center">
+			<img class="hidden" src="static/icons/up_arrow.png" height="40" width="40">
+			<img class="hidden" src="static/icons/up_arrow.png" height="40" width="40">
+			<img id="pin-arrow" class="transition" src="static/icons/up_arrow.png" height="40" width="40">
+			<img id="git-arrow" class="transition" src="static/icons/up_arrow.png" height="40" width="40">
+			<img class="hidden" src="static/icons/up_arrow.png" height="40" width="40">
 		</div>
 	</div>
 </body>
+
+<script language="javascript" type="text/javascript" src="static/js/javascript.js"></script>
 
 </html>
