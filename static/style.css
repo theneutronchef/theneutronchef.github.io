@@ -132,3 +132,25 @@ a img:hover {
   transition:opacity 0.6s linear;
 }
 
+@media screen and (max-width: 481px){
+
+#header {
+	/*height:10%;*/
+	padding:5%;
+	font-size: 36px;
+}
+
+#title {
+	font-size: 50px;
+	padding: 40px;
+	width:75%;
+}
+
+#left-side,
+#left-header,
+#right-side,
+#right-header {
+	display:none;
+}
+}
+

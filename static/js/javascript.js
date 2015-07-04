@@ -21,11 +21,21 @@ document.getElementById('right-intro').onmouseover = function() {
 };
 
 document.getElementById('left-link').onmouseover = function() {
+	showDiv('pin-arrow')
 	showDiv('left-side')
 };
 
+document.getElementById('left-link').onmouseout = function() {
+	hideDiv('pin-arrow')
+};
+
 document.getElementById('right-link').onmouseover = function() {
+	showDiv('git-arrow')
 	showDiv('right-side')
+};
+
+document.getElementById('right-link').onmouseout = function() {
+	hideDiv('git-arrow')
 };
 
 document.getElementById('left-img').onmouseover = function() {
