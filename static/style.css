@@ -25,6 +25,21 @@ a:hover {
 	font-size: 36px;
 }
 
+#left-header {
+	position:absolute;
+	left: 5%;
+	top: 6%;
+	font-size: 24px;
+}
+
+#right-header {
+	position:absolute;
+	right: 2%;
+	top: 6%;
+	font-size: 24px;
+
+}
+
 #container {
 	position: relative;
   left:-5%;
@@ -42,22 +57,21 @@ a:hover {
 #title {
 	font-size: 54px;
 	padding: 40px;
+	width:33%;
 }
 
-#left-img {
+#left-side {
 	position:absolute;
-	left:10%;
+	left:7%;
 	top:28%;
 	font-size: 16px;
-
 }
 
-#right-img {
+#right-side {
 	position:absolute;
-	right:10%;
+	right:7%;
 	top:28%;
 	font-size: 16px;
-
 }
 
 #nav {
@@ -66,6 +80,10 @@ a:hover {
 
 #social {
 	padding-top: 40px;
+}
+
+#image-gallery {
+	padding-top: 50px;
 }
 
 a img:hover {
@@ -85,13 +103,15 @@ a img:hover {
 	color: #BDBDBD;
 }
 
-.circle {
-	position: absolute;
+#image {
+	border-radius:50% 50% 50% 50%; 
+	box-shadow: 10px 5px 10px #888;
+	/*position: absolute;
 	background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
   width: 100px;
-  height: 100px;
+  height: 100px;*/
 }
 
 .transition {

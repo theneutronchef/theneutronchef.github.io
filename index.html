@@ -9,7 +9,19 @@
 	<!-- <div class="circle" style="background-image: url(static/images/souffle.jpg)"> -->
 	<!-- </div> -->
 	<div id="header" class="center transition">
-		<p>Hi! My name is Gabriel.</p>
+		<div id="left-header" class="transition"> 
+			<p>Korean Drama Addict</p> 
+			<p>Ten-pin Bowler</p>
+			<p>Starcraft 2, Fifa, and Pokemon</p>
+
+		</div>
+		<p><span id="left-intro">Hi!</span> My name is <span id="right-intro">Gabriel</span>.</p>
+		<div id="right-header" class="transition"> 
+			<p><a href="http://www.berkeley.edu/">UC Berkeley</a> Class of 2015</p>
+			<p>Computer and Cognitive Science</p>
+			<p>Software Engineer at <a href="http://www.netease-na.com/">NetEase Inc.</a></p>
+		</div>
+
 	</div>
 	<div id="container">
 		<div id="title" class="center" onmouseover="showDiv('about')">
@@ -22,21 +34,26 @@
 			<span id="right-link" class="mouseover">Coder</span> 
 		</div>
 		</span>
-		<div id="left-img" class="center transition">
-			<img src="static/icons/cooking.png" height="100" width="100"></br>
-			<p>Check out my culinary creations on my Pinterest board!</p>
+		<div id="left-side" class="center transition">
+			<div id="left-img">
+				<img src="static/icons/cooking.png" height="100" width="100"></br>
+				<p>Check out my culinary creations on my Pinterest board!</p>
+			</div>
 			<div id="left-footer" class="transition">
-				<p>UC Berkeley Iron Chef</p>
-				<p></p>
+				<p id="appetizer">Appetizer</p>
+				<p id="entree">Entree</p>
+				<p id="dessert">Dessert</p>
 			</div>
 		</div>
-		<div id="right-img" class="center transition">
-			<img src="static/icons/imac.png" height="100" width="100"></br>
-			<p>Check out my coding creations on my Github!</p>
+		<div id="right-side" class="center transition">
+			<div id="right-img">
+				<img src="static/icons/imac.png" height="100" width="100"></br>
+				<p>Check out my coding creations on my Github!</p>
+			</div>
 			<div id="right-footer" class="transition">
-				<p><a href="http://groupool.herokuapp.com/">Groupool</a></p>
-				<p>Super Smash Bros Shootout</p>
-				<p>JustAdd</p>
+				<p id="groupool"><a href="http://groupool.herokuapp.com/">Groupool</a></p>
+				<p id="smash">Super Smash Bros Shootout</p>
+				<p id="justadd">JustAdd</p>
 			</div>
 		</div>
 		<div id="social" class="center"> 
@@ -53,6 +70,9 @@
 			<img id="git-arrow" class="transition" src="static/icons/up_arrow.png" height="40" width="40">
 			<img class="hidden" src="static/icons/up_arrow.png" height="40" width="40">
 		</div>
+	</div>
+	<div id="image-gallery" class="center transition"> 
+		<img id="image" src="" height="150">
 	</div>
 </body>
 
